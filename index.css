@@ -1,0 +1,32 @@
+#heading{
+    text-align: center;
+    color: rgb(10, 118, 32);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 3px solid rgb(255, 47, 47);
+}
+/* .container{
+   
+
+} */
+#table{
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    width: 700px;
+   font-size: 20px;
+   margin-top: 50px;
+   font-family: 'Baloo Bhai 2', cursive;
+  
+}
+#table tr:nth-child(even){
+    background-color: rgb(173, 241, 70);
+    color: rgb(49, 46, 27);
+}
+#table tr:nth-child(odd){
+    background-color: rgba(253, 242, 242, 0.909)
+}
+#table th{
+    background-color: rgb(173, 241, 70);
+    color:rgba(207, 46, 78, 0.89);
+}
